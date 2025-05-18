@@ -1,8 +1,138 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+@font-face {
+    font-family: comic;
+    src: url(/MarvinVisions-Bold.otf);
+}
+
+
+
+.font-comic {
+    font-family: comic;
+}
+
+#box1 {
+    background: url("/p1-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box1:hover {
+    background: url("/p1-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#box2 {
+    background: url("/p2-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box2:hover {
+    background: url("/p2-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#box3 {
+    background: url("/p3-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box3:hover {
+    background: url("/p3-b.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box4 {
+    background: url("/p4-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box4:hover {
+    background: url("/p4-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#box5 {
+    background: url("/p5-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box5:hover {
+    background: url("/p5-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#box6 {
+    background: url("/p6-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box6:hover {
+    background: url("/p6-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#box7 {
+    background: url("/p7-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box7:hover {
+    background: url("/p7-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#box8 {
+    background: url("/p8-a.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box8:hover {
+    background: url("/p8-b.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
