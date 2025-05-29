@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
 import NewsLetter from "./components/Newsletter"
+import SmoothScroll from "./components/SmoothScroll"
 import Subscribe from "./components/Subscribe"
 import TellMore from "./components/TellMeMore"
 import ThankYou from "./components/ThankYou"
@@ -13,6 +14,7 @@ function App() {
   
   return (
     <>
+      <SmoothScroll />
       <div className='w-full h-auto m-0 p-0  '>
         <Nav />
         <Hero />
